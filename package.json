@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=build/bundle.js",
+    "build": "craco build",
     "test": "craco test",
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
